@@ -316,54 +316,9 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  header h1 {
-    font-size: 24px;
+  .some-class {
+    flex-direction: column;
+    font-size: 14px;
+    text-align: center;
   }
-
-  nav a {
-    display: block;
-    margin: 10px 0;
-    font-size: 16px;
-  }
-
-  .hero-line {
-    font-size: 1.2rem;
-    padding: 10px;
-  }
-
-  .card-grid {
-    grid-template-columns: 1fr;
-    padding: 10px;
-  }
-
-  .episodes-grid {
-    grid-template-columns: 1fr;
-    padding: 10px;
-  }
-
-  .gallery-grid {
-    grid-template-columns: 1fr;
-    padding: 10px;
-  }
-
-  .modal-content {
-    width: 90%;
-    padding: 20px;
-  }
-
-  #about h2 {
-    font-size: 1.8rem;
-  }
-
-  .about-box {
-    padding: 0;
-  }
-
-  .about-section {
-    padding: 15px;
-  }
-}
-
-.about-section {
-  padding: 15px 20px;
 }
